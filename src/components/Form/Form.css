@@ -1,0 +1,16 @@
+.Form {
+
+}
+.Form .form-group {
+  margin-bottom: 1rem;
+}
+.Form input[type=text],
+.Form input[type=email],
+.Form input[type=number] {
+  padding: 4px;
+  border: 1px solid rgb(199, 199, 199);
+  border-radius: 8px;
+}
+.Form label {
+  display: block;
+}

@@ -54,6 +54,8 @@ Image effects or filters
 The API that is returning images is rather slow. Show how it can be sped up, and show how you would measure the improvement in performance.
 
 
+***I would remove the setTimeout that is in server.js but not sure if that's a valid answer. I have added in console.time in App.jsx to measure the response time. We could reduce the amount of data requested to 5 and have a load more button or scroll to load more.***
+
 ### 3. Forms
 
 One of the oldest yet trickiest parts of web development is forms, so we’d like to see how you handle them.
@@ -66,6 +68,7 @@ Add a form to your app with the following fields. The form doesn't need to submi
 - [ ] Favourite colour
 - [ ] Salary (using a range input)
 
+***There is only one validation on the age in place as an example. I didn't have time to do perfect fully completed validation.***
 
 ## Time allowed
 
@@ -76,3 +79,4 @@ We appreciate that your time is valuable and recommend you not spend more than 2
 
 The goal of the test is to prove your understanding of the concepts of modern HTML/CSS/JS, but not to produce something production ready or pixel perfect.
 Your work will be tested in the browser of your choice, so please specify this when submitting. This can include pre-release browsers such as Chrome Canary or Safari Technology Preview if you want to work with experimental features.
+***I worked on this project using a recent version of Chrome.***
